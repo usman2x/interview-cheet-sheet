@@ -2,6 +2,7 @@
 Java Virtual Machine loads static data-members only on-demand, Thread safe singleton class
 
 ### Collections
+1. Hashmap performance factors? 1) Initial Capacity 2) Load Factor
 
 ### String
 1. What is String pool?
