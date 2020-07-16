@@ -15,6 +15,20 @@ Java Virtual Machine loads static data-members only on-demand, Thread safe singl
 ### Multithreading & Synchronization
 1. Dead lock detection in java
 
+2. Executor API 
+
+  Decouples threads creation and management from application logic.
+  
+3. Thread pool
+
+  Pool with fixed number of threads, Reuse threads when already running threads
+are completed.
+
+4. Callable vs Runnable
+
+  Callable returns Future<Type> while Runnable do not returns any value.
+  Callable throws checked exceptions, runnable do not throws any exceptions.
+
 ### Basic Concepts
 1. What is difference between final vs effective final?
 2. What is Java Object Graph (https://github.com/bramp/objectgraph)
