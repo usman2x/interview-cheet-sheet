@@ -16,6 +16,12 @@
 - Spring Autoconfiguration (Provide configuration if jar found on class path)
 
 ### Spring MVC
+1. Three Layers of MVC
+- ***M***(odel). DAO, Classes annotated with `@Repository`
+- ***V***(iew)
+- ***C***(ontroller). REST end points, Classes anotated with `@Controller`.
+- Service Layer, Classes annotated with `@Service`.
+
 - DispatcherServlet ressolves the @Controller annotation by using handler mapping and route request to that server
 
 ### Spring Data
@@ -23,4 +29,3 @@
 
 ### Links
 - https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans
-
