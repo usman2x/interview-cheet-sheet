@@ -28,7 +28,14 @@ are completed.
 
   Callable returns Future<Type> while Runnable do not returns any value.
   Callable throws checked exceptions, runnable do not throws any exceptions.
+  
+5. Synchronization challenges
 
+  - Race condition
+  - Deadlock
+  - Starvation
+  - Livelock
+  
 ### Basic Concepts
 1. What is difference between final vs effective final?
 2. What is Java Object Graph (https://github.com/bramp/objectgraph)
