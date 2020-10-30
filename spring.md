@@ -2,7 +2,7 @@
 ### Spring basic concepts
 - Spring framework for dependency injection and autowiring and integration
 - Spring Application context
-- Spring beans are managed by IOC
+- Spring beans; Objects that are managed by IOC
 - EJB container vs Spring container
 
 ### Spring DI
@@ -10,7 +10,7 @@
 - Injecting list of beans by generic type
 
 ### Spring Boot
-- Classes annotated with @Component @Controller @Service @Repository are candidate for auto tection
+- Classes annotated with @Component @Controller @Service @Repository are candidate for auto detection
 - Specialized version of annotation is used for layred the application into modular structure
 - All specialized versions of annotations are treated @components while scan auto detection and auto wiring
 - Spring Autoconfiguration (Provide configuration if jar found on class path)
